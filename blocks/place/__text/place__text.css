@@ -1,0 +1,23 @@
+.place__text{
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text{
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__text{
+    gap: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__text{
+    gap: 26px;
+  }
+}

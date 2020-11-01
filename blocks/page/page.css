@@ -1,0 +1,20 @@
+@font-face {
+  src: url("../../vendor/fonts/Inter-Light.woff2") format("woff2"),
+    url("../../vendor/fonts/Inter-Light.woff") format("woff"),
+    url("../../vendor/fonts/Inter-Light.ttf") format("truetype");
+  font-family: "Inter";
+}
+
+@font-face {
+  src: url("../../vendor/fonts/Inter-ExtraBold.woff2") format("woff2"),
+    url("../../vendor/fonts/Inter-ExtraBold.woff") format("woff"),
+    url("../../vendor/fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.page {
+  font-family: "Inter", "Arial", sans-serif;
+  background: #2a2c2f;
+  color: #fff;
+}

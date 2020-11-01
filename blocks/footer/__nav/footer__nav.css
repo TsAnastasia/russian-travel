@@ -1,0 +1,22 @@
+.footer__nav{
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+
+@media screen and (max-width: 768px){
+  .footer__nav{
+    grid-auto-flow: row;
+    margin-bottom: 48px;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .footer__nav{
+    grid-auto-flow: column;
+    margin-bottom: 0;
+    gap: 18px;
+  }
+}
