@@ -6,9 +6,9 @@
 }
 
 @font-face {
-  src: url("../../vendor/fonts/Inter-ExtraBold.woff2") format("woff2"),
-    url("../../vendor/fonts/Inter-ExtraBold.woff") format("woff"),
-    url("../../vendor/fonts/Inter-ExtraBold.ttf") format("truetype");
+  src: url("../../vendor/fonts/Inter-Black.woff2") format("woff2"),
+    url("../../vendor/fonts/Inter-Black.woff") format("woff"),
+    url("../../vendor/fonts/Inter-Black.ttf") format("truetype");
   font-family: "Inter";
   font-weight: bold;
 }
