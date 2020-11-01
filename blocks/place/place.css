@@ -6,8 +6,19 @@
 
 @media screen and (max-width: 768px) { 
   .place{
-    grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media screen and (min-width: 768px) { 
+  .place{
+    grid-template-rows: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .place{
+    grid-template-columns: auto;
     gap: 32px;
   }
 }
@@ -15,7 +26,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place{
     grid-template-columns: 340px auto;
-    grid-template-rows: repeat(2, auto);
     gap: 48px 28px;
   }
 }
@@ -23,7 +33,6 @@
 @media screen  and (min-width: 1024px) and (max-width: 1280px) {
   .place{
     grid-template-columns: 440px auto;
-    grid-template-rows: repeat(2, auto);
     gap: 48px 32px;
   }
 }
@@ -31,7 +40,6 @@
 @media screen and (min-width: 1280px) {
   .place{
     grid-template-columns: 460px 484px;
-    grid-template-rows: repeat(2, auto);
     gap: 48px 40px;
   }
 }
