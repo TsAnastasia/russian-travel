@@ -18,13 +18,13 @@
   }
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1024px){
   .places{
     gap: 80px;
   }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .places{
     margin: 92px 48px;
   }
