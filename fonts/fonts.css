@@ -3,14 +3,7 @@
     url("./Inter-Regular.woff") format("woff"),
     url("./Inter-Regular.ttf") format("truetype");
   font-family: "Inter";
-}
-
-@font-face {
-  src: url("./Inter-Black.woff2") format("woff2"),
-    url("./Inter-Black.woff") format("woff"),
-    url("./Inter-Black.ttf") format("truetype");
-  font-family: "Inter";
-  font-weight: bold;
+  font-weight: 400;
 }
 
 @font-face {
@@ -19,4 +12,12 @@
     url("./Inter-Bold.ttf") format("truetype");
   font-family: "Inter";
   font-weight: 700;
+}
+
+@font-face {
+  src: url("./Inter-Black.woff2") format("woff2"),
+    url("./Inter-Black.woff") format("woff"),
+    url("./Inter-Black.ttf") format("truetype");
+  font-family: "Inter";
+  font-weight: 900;
 }

@@ -5,7 +5,7 @@
   align-self: flex-start;
   font-size: 10px;
   line-height: 14px;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: calc(0.15 * 10px);
   text-transform: uppercase;
 }
