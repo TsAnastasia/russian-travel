@@ -1,0 +1,16 @@
+.footer__links{
+  margin: 0 0 48px;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 32px;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px){
+  .footer__links{
+    grid-auto-flow: column;
+    margin-bottom: 0;
+    gap: 18px;
+  }
+}

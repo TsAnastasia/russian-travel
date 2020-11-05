@@ -1,21 +1,13 @@
 .header__logo{
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 768px){
-  .header__logo{
-    width: 142px;
-    height: 42px;
-    transform: translate(-50%, -50%) scale(calc(42 / 52), calc(142 / 176)) translate(50%, 50%);
-    overflow: visible;
-  }
+  width: 142px;
+  height: 42px;
 }
 
 @media screen and (min-width: 768px){
   .header__logo{
     width: 176px;
     height: 52px;
-    transform: scale(1);
   }
 }

@@ -1,13 +1,10 @@
 .header__links{
+  margin: calc(30px - 16px) 0 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, auto);
   column-gap: 18px;
-}
-
-@media screen and (max-width: 768px){
-  .header__links{
-    margin-top: calc(30px - 16px);
-  }
+  list-style: none;
 }
 
 @media screen and (min-width: 768px){
